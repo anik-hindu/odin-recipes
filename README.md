@@ -1,6 +1,4 @@
-Odin Recipes - a Basic HTML Recipes Website
-
-This website basically has few pages that describes some popular recipe ingredients and directions to cook.
-This was my first project to help me learn the basics of HTML, like working with links, images, list and text formatting.
-It also taught me fundamental skills of using Version Control System like Git, and storing them in online repository like Github.
-Through building this simple project I learned the atomic git commit message and putting into use, basic Developer Workflow.
+# Odin Recipes - a Basic HTML Recipes Website
+#### Live Preview: https://anik-hindu.github.io/odin-recipes/
+#### Description:
+This website basically has few pages that describes some popular recipe ingredients and directions to cook. This was my first project to help me learn the basics of HTML, like working with links, images, list and text formatting. It also taught me fundamental skills of using Version Control System like Git, and storing them in online repository like Github. Through building this simple project I learned the atomic git commit message and putting into use, basic Developer Workflow.
