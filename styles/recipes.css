@@ -1,0 +1,84 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  border-radius: 32px;
+  flex: 1 2 auto;
+}
+
+h1 {
+  align-self: flex-start;
+  margin: 0;
+  padding: 0;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", sans-serif;
+  flex-grow: 0;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  align-items: center;
+  justify-content: center;
+  padding: 32px;
+  margin: 0 auto;
+  max-width: 600px;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 32px;
+}
+
+.one {
+  background-color: #eee;
+  border-radius: 16px;
+  padding: 16px;
+  display: flex;
+  flex-flow: wrap column;
+  flex: 1;
+}
+
+.two {
+  display: flex;
+  flex-flow: wrap column;
+  max-width: 100%;
+  border-left: 2px solid black;
+  padding: 16px;
+  flex: 1;
+}
+
+ul li {
+  list-style-type: none;
+}
+
+ul {
+  margin: 0;
+
+  padding: 0;
+}
+h2 {
+  text-align: center;
+  margin: 0 0 16px 0;
+  padding: 0;
+}
+ol {
+  margin: 0;
+  padding: 0;
+  margin-left: 16px;
+}
+p {
+  margin: 0;
+  flex: 1;
+}
